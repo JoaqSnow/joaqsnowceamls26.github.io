@@ -27,7 +27,7 @@ logo_on_dark:  /assets/images/logo-on-dark.png
 theme_name: dark
 
 # ----- Site behavior -----
-show_downloads: false
+show_downloads: 
 google_analytics:                                  # <- (optional) paste your GA tracking ID
 future: true                                       # post-dated entries still publish (useful during the program)
 permalink: /:title:output_ext                      # default URL shape for new posts (e.g. /day-12.html)
