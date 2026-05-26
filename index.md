@@ -13,7 +13,7 @@ quick_facts:
   - "🚀 I like sushi"
 
 linkedin: https://www.linkedin.com/in/joaquin-snowden-a482a228a/
-image: <img width="1333" height="1723" alt="Profile pic" src="https://github.com/user-attachments/assets/56b5e403-f348-473d-aa73-18dc0b19801d" />
+image: assets/Profile pic.png
 
 
 # A "Currently" block — three short status lines for the home page.
