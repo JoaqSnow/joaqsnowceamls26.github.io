@@ -19,9 +19,9 @@ image: <img width="1333" height="1723" alt="Profile pic" src="https://github.com
 # A "Currently" block — three short status lines for the home page.
 currently:
   - label: Reading
-    text: "The Design of Everyday Things — Don Norman"
+    text: "Reestablishing Righteous Altars - Anthony W Turner"
   - label: Building
-    text: "A small Raspberry Pi sensor logging dashboard"
+    text: "Collaborative Robot Arm to put together Lego Designs"
   - label: Wondering
-    text: "How accessibility research can shape consumer hardware"
+    text: "How will AI affect construction management?"
 ---
