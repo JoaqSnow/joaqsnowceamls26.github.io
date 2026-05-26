@@ -24,9 +24,9 @@ final_report_url: https://example.com/your-report.pdf
 
 grad_mentor:
   name: Derrick Mirindi
-  linkedin: [https://www.linkedin.com/in/example](https://www.linkedin.com/in/derrick-mirindi-18b538b8/)
+  linkedin: https://www.linkedin.com/in/derrick-mirindi-18b538b8/
 
 faculty_mentor:
   name: Dr. Yuhan Jiang
-  linkedin: [https://www.linkedin.com/in/example](https://www.linkedin.com/in/yuhan-jiang-aa9097b9/)
+  linkedin: https://www.linkedin.com/in/yuhan-jiang-aa9097b9/
 ---
