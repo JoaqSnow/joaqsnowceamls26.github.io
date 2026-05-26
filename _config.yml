@@ -1,0 +1,52 @@
+# =====================================================
+# CEAMLS SAIRI Personal Site Template
+# Edit the lines marked with the arrow comment to personalize your site.
+# =====================================================
+
+# ----- Identity (shown in SEO + browser tab) -----
+title: Your Name Here                              # <- your name
+author: Your Name Here                             # <- your name (shown as post byline)
+description: My CEAMLS SAIRI Summer Research Site  # <- short site tagline
+email:                                             # <- (optional) contact email for SEO
+url: https://your-username.github.io               # <- your final site URL (canonical SEO links)
+lang: en-US
+
+# ----- Branding (program-wide; rarely changes) -----
+program: CEAMLS SAIRI                       
+program_long: CEAMLS SAIRI Summer Research        
+year: 2026                                         
+# Two logo variants — themes pick the one that contrasts with their background.
+# Light themes (minimal, premium) use logo_on_light; dark themes (fresh, signal)
+# use logo_on_dark.
+logo_on_light: /assets/images/logo-on-light.png
+logo_on_dark:  /assets/images/logo-on-dark.png
+
+# ----- Theme selection -----
+# Choose one of: minimal | premium | fresh | signal
+# See README.md for screenshots of each theme.
+theme_name: minimal
+
+# ----- Site behavior -----
+show_downloads: false
+google_analytics:                                  # <- (optional) paste your GA tracking ID
+future: true                                       # post-dated entries still publish (useful during the program)
+permalink: /:title:output_ext                      # default URL shape for new posts (e.g. /day-12.html)
+
+# ----- Build -----
+exclude:
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - docs/
+  - .github/
+  - bin/
+  - _config_preview_minimal.yml
+  - _config_preview_premium.yml
+  - _config_preview_fresh.yml
+  - _config_preview_signal.yml
+
+# ----- Plugins -----
+plugins:
+  - jekyll-seo-tag

@@ -1,0 +1,41 @@
+{% comment %}
+  Theme preview switcher — appears at the bottom of every page during local
+  dev and on deployed preview pages (gated in _layouts/default.html).
+
+  Cross-preview links must work under any deploy:
+    - User page (foo.github.io)            → site.baseurl is ""
+    - Project page (foo.github.io/repo)    → site.baseurl is "/repo" on live
+                                              and "/repo/_preview/<theme>" in preview
+
+  We compute `deploy_root` (the base of the deployment, without any
+  /_preview/<theme> suffix) by stripping the preview suffix when present.
+{% endcomment %}
+{% assign current_theme = site.theme_name | default: 'minimal' %}
+{% assign all_themes = 'minimal,premium,fresh,signal' | split: ',' %}
+
+{% if site.preview_mode %}
+  {% assign deploy_root = site.baseurl | split: '/_preview/' | first %}
+{% else %}
+  {% assign deploy_root = site.baseurl %}
+{% endif %}
+
+<aside class="preview-switcher" aria-label="Theme preview">
+  {% if site.preview_mode %}
+    <span class="preview-switcher__label">Preview mode &mdash;</span>
+    {% for t in all_themes %}
+      {% if t == current_theme %}
+        <span class="preview-switcher__link is-active">{{ t }}</span>
+      {% else %}
+        <a class="preview-switcher__link" href="{{ deploy_root }}/_preview/{{ t }}{{ page.url }}">{{ t }}</a>
+      {% endif %}
+    {% endfor %}
+    <a class="preview-switcher__back" href="{{ deploy_root }}{{ page.url }}">&larr; Back to my site</a>
+  {% else %}
+    <span class="preview-switcher__label">Preview in another theme:</span>
+    {% for t in all_themes %}
+      {% unless t == current_theme %}
+        <a class="preview-switcher__link" href="{{ deploy_root }}/_preview/{{ t }}{{ page.url }}">{{ t }}</a>
+      {% endunless %}
+    {% endfor %}
+  {% endif %}
+</aside>

@@ -1,0 +1,15 @@
+---
+---
+{% assign theme_name = site.theme_name | default: 'minimal' %}
+
+@import "_shared/rouge-github";
+
+{% if theme_name == "signal" %}
+  @import "themes/signal/index";
+{% elsif theme_name == "premium" %}
+  @import "themes/premium/index";
+{% elsif theme_name == "fresh" %}
+  @import "themes/fresh/index";
+{% else %}
+  @import "themes/minimal/index";
+{% endif %}

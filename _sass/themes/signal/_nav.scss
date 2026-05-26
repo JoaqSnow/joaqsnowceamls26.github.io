@@ -1,0 +1,192 @@
+// ==========================================================
+// Navigation — desktop sidebar + mobile drawer
+// ==========================================================
+
+// ---- Desktop sidebar ----
+.site-nav {
+  flex: 0 0 $sidebar-width;
+  padding: $space-xl $space-lg $space-lg;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+  border-right: 1px solid $rule;
+}
+
+.site-nav__brand {
+  margin-bottom: $space-xl;
+  padding-bottom: $space-lg;
+  border-bottom: 1px solid $rule;
+}
+
+.site-nav__logo {
+  display: block;
+  width: 160px;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: $space-md;
+}
+
+.site-nav__program {
+  display: block;
+  font-family: $font-display;
+  font-weight: 800;
+  font-size: 1.1rem;
+  color: $warm-white;
+  letter-spacing: -0.02em;
+}
+
+.site-nav__year {
+  display: block;
+  font-size: 0.75rem;
+  color: $muted;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  margin-top: $space-xs;
+}
+
+.site-nav__links {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+
+  a {
+    display: block;
+    padding: $space-sm $space-md;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: $muted;
+    border-left: 3px solid transparent;
+    border-radius: 0 6px 6px 0;
+    transition: all 0.2s ease;
+
+    &:hover {
+      color: $warm-white;
+      background: rgba($warm-white, 0.04);
+    }
+
+    &.active {
+      color: $orange;
+      font-weight: 700;
+      border-left-color: $orange;
+      background: rgba($orange, 0.06);
+    }
+  }
+}
+
+// ---- Mobile header ----
+.mobile-header {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 56px;
+  z-index: 100;                   // drawer (110) covers this when open
+  background: rgba($navy, 0.85);
+  backdrop-filter: blur(14px) saturate(140%);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+  border-bottom: 1px solid $rule;
+  padding: 0 $space-md 0 $space-lg;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mobile-header__brand {
+  display: inline-flex;
+  align-items: center;
+  height: 100%;
+  font-family: $font-display;
+  font-weight: 800;
+  font-size: 0.95rem;
+  color: $warm-white;
+  letter-spacing: -0.02em;
+}
+
+.mobile-header__logo {
+  display: block;
+  height: 30px;
+  width: auto;
+}
+
+.mobile-header__toggle {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: $space-sm;
+
+  .hamburger-line {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background: $warm-white;
+    border-radius: 2px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+
+  &[aria-expanded="true"] {
+    .hamburger-line:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .hamburger-line:nth-child(2) { opacity: 0; }
+    .hamburger-line:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+  }
+}
+
+// ---- Overlay ----
+.nav-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);   // solid darken — no blur, matching fresh
+  z-index: 105;                     // above mobile-header (100), below drawer (110)
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  &.active { display: block; opacity: 1; }
+}
+
+// ---- Responsive ----
+@media (max-width: $bp-tablet) {
+  .mobile-header { display: flex; }
+
+  .site-container {
+    flex-direction: column;
+    padding: $space-lg;
+    padding-top: calc(56px + #{$space-lg});
+    // Neutralize the desktop stacking context (position: relative; z-index: 1)
+    // so the fixed-position .site-nav drawer can rise above the .nav-overlay
+    // in the root stacking context.
+    position: static;
+    z-index: auto;
+  }
+
+  .site-nav {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 280px;
+    background: $navy-light;
+    border-right: 1px solid $rule-strong;
+    z-index: 110;                                  // covers mobile-header
+    padding: calc(56px + #{$space-lg}) $space-lg $space-lg;  // clear the mobile bar
+    transform: translateX(-100%) !important;
+    transition: transform 0.32s cubic-bezier(0.32, 0.72, 0, 1);
+    height: 100vh;
+    overflow-y: auto;
+    &.open { transform: translateX(0) !important; }
+  }
+
+  .content-area {
+    max-width: 100%;
+    padding: $space-lg 0;
+  }
+}
+
+@media (max-width: $bp-mobile) {
+  .site-container {
+    padding: $space-md;
+    padding-top: calc(56px + #{$space-md});
+  }
+}
