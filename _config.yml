@@ -24,7 +24,7 @@ logo_on_dark:  /assets/images/logo-on-dark.png
 # ----- Theme selection -----
 # Choose one of: minimal | premium | fresh | signal
 # See README.md for screenshots of each theme.
-theme_name: dark
+theme_name: fresh
 
 # ----- Site behavior -----
 show_downloads: 
