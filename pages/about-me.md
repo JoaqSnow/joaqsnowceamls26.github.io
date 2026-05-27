@@ -9,11 +9,11 @@ about:
   image: /assets/Profile pic.png
   linkedin: https://www.linkedin.com/in/joaquin-snowden-a482a228a/
   bio: |
-    Hi! I'm Clyde, a Computer Science student in the CEAMLS SAIRI Summer Research program.
+    Bonjour I'm Joaquin, a Mechatronics Engineer student in the CEAMLS SAIRI program!!
 
-    My research interests sit at the intersection of human-computer interaction and applied
-    machine learning. I'm especially curious about how everyday tools can be made more
-    accessible and adaptive through smart software.
+    My career goal is to become a Project Manager concentrating in the construction field. What AI reasearch
+    will do for me ,specifically the Project I am working on , (Check out my Project tab). Will allow me to take
+    a glimpse into the future of how AI will be implemented into construction
 
     Outside of class, you'll find me biking trails, learning languages, or working on small
     side projects with friends.
