@@ -7,7 +7,10 @@ subtitle: Human-Computer Interaction & Adaptive Systems
 project_title: Developing Edge AI Applications for Human-Robot Collaboration in LEGO Assembling Operations
 
 problem: |
-  
+
+  As Artificial Intelligence increases, a question rises; Can AI put compenents together to create firm structures?
+  The best and most fun way to dive deep is LEGOS!
+  We need to go deeper in how we can program a robot to increase their object detection  
 
 approach: |
  This project aims to develop edge AI applications that enable a robotic arm to autonomously 
