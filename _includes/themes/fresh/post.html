@@ -34,6 +34,14 @@
   </section>
   {% endif %}
 
+   {% if page.daily_scripture %}
+  <section class="post-section post-section--scripture reveal delay-4">
+    <div class="post-section__label">Scripture</div>
+    {{ page.daily_scripture | markdownify }}
+  </section>
+  {% endif %}
+
+
   {% if page.tags %}
   <footer class="post-tags reveal">
     <span class="post-tags__label">Keywords</span>
