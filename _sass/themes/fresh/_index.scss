@@ -40,6 +40,7 @@ $border-strong: rgba(255,255,255, 0.14);
 $learned-color: #4ADE80;
 $blocker-color: #FBBF24;
 $reflect-color: #A78BFA;
+$scripture-color: #0000FF;
 
 $font-display: 'Bricolage Grotesque', system-ui, sans-serif;
 $font-body: 'Karla', system-ui, sans-serif;
@@ -902,6 +903,10 @@ hr { border: none; border-top: 1px solid $border; margin: 3rem 0; }
 .post-section--reflection {
   border-color: rgba($reflect-color, 0.15);
   .post-section__label { color: $reflect-color; &::before { background: $reflect-color; } }
+}
+.post-section--scripture {
+  border-color: rgba($scripture-color, 0.15);
+  .post-section__label { color: $scripture-color; &::before { background: $scripture-color; } }
 }
 
 .post-tags {
