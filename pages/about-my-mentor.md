@@ -4,7 +4,7 @@ title: About My Mentors
 permalink: /about-my-mentor.html
 
 graduate_mentor:
-  name: Alex Morgan
+  name: Derreck Mirindi
   title: PhD Candidate, Computer Engineering
   image: /assets/images/graduate-student-mentor.svg
   website: https://example.com/alex-morgan
@@ -17,7 +17,7 @@ graduate_mentor:
     for undergraduate research participation.
 
 faculty_mentor:
-  name: Dr. Pat Nguyen
+  name: Dr. Yuhan Jiang
   title: Associate Professor, School of Engineering
   image: /assets/images/faculty-mentor.svg
   website: https://example.com/pat-nguyen
