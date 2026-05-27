@@ -19,15 +19,15 @@ about:
     side projects with friends.
 
   hobbies:
-    - icon: 🎨
-      title: Digital Art
-      description: I make small illustrations and pixel art in my spare time.
-    - icon: 🚲
-      title: Biking
-      description: Weekend trail rides are how I reset.
-    - icon: 📚
-      title: Reading
-      description: Sci-fi novels and design essays — both equally inspiring.
+    - icon: 📖
+      title: Reading the bible
+      description: 
+    - icon: 🏋️‍♂️
+      title: Working Out
+      description: 
+    - icon: 📹
+      title: Content Creation
+      description: 
 
   gallery:
     - image: /assets/images/gallery-1.svg
