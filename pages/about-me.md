@@ -1,11 +1,11 @@
 ---
 layout: about
-title: About Me
+title: Who Am I?
 permalink: /about-me.html
 
 about:
-  name: Clyde Tandjong
-  role: Junior, Computer Science
+  name: Joaquin Snowden
+  role: Senior, Mechatronics Engineering
   image: /assets/images/profile.svg
   linkedin: https://www.linkedin.com/in/example
   bio: |
