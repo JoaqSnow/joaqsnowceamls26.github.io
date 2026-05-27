@@ -6,8 +6,8 @@ permalink: /about-me.html
 about:
   name: Joaquin Snowden
   role: Senior, Mechatronics Engineering
-  image: /assets/images/profile.svg
-  linkedin: https://www.linkedin.com/in/example
+  image: /assets/Profile pic.png
+  linkedin: https://www.linkedin.com/in/joaquin-snowden-a482a228a/
   bio: |
     Hi! I'm Clyde, a Computer Science student in the CEAMLS SAIRI Summer Research program.
 
