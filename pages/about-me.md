@@ -9,7 +9,7 @@ about:
   image: /assets/Profile pic.png
   linkedin: https://www.linkedin.com/in/joaquin-snowden-a482a228a/
   bio: |
-    Bonjour I an Joaquin, a Mechatronics Engineer student in the CEAMLS SAIRI program!!
+    Bonjour I am Joaquin (WA-keen), a Mechatronics Engineer student in the CEAMLS SAIRI program!!
 
     I Am pursuing a career in Project Management concentrating in the construction field; with the main goal
     of creating and running my own training facility called " Temple Fitness/Run".
@@ -18,21 +18,21 @@ about:
 
     I Am a President for a faith based oraganization called Connected Through Christ on Morgan State campus, which 
     has over 200 members. Our vision is to Show Gods Love, Transform Lives, Build Community, and Grow Leaders on 
-    every campus in every city. This role has increased my understanding of not just leading a executive board and make sure order 
+    every campus in every city. This role has increased my understanding of not just leading a executive board and making sure order 
     is sustainined ,but also the ability to meet the needs of all Gods people by trusting in the discernment I have been given.
 
     
 
   hobbies:
     - icon: 📖
-      title: Reading the bible
+      title: Reading the Bible (The Living Word)
       description: The Daily Bread is something very important in my life. Jesus is the way , the truth, and the life. (The Light aswell!! 🌞)
     - icon: 🏋️‍♂️
       title: Working Out
       description:  I might go to the gym or I'll do a total of 500 push-ups a day! A workout is a workout😆
     - icon: 📹
       title: Content Creation
-      description:  Christion content = Best Content. Whether its breaking down verses, going live, or day in the Life. It's about Jesus!! 🙏
+      description:  Christian content = Best Content. Whether it's breaking down verses, going live, or day in the Life. It's about Jesus!! 🙏
 
   gallery:
     - image: /assets/images/gallery-1.svg
