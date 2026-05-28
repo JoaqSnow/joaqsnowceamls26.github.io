@@ -5,27 +5,20 @@ permalink: /about-my-mentor.html
 
 graduate_mentor:
   name: Derreck Mirindi
-  title: PhD Candidate, Computer Engineering
+  title: PhD in Architecture, Urbanism, and Built Environments
   image: /assets/images/graduate-student-mentor.svg
   website: https://example.com/alex-morgan
   bio: |
-    Alex is a PhD candidate working on adaptive systems and embedded machine learning.
-    They've been an incredible mentor — patient with my questions and great at helping
-    me connect ideas across disciplines.
+    Derrick possesses proficiency in Python programming, image processing, and computer vision applications utilizing artificial intelligence (AI). These skills make him an ideal candidate for mentoring the undergrads in this proposed project. He has worked with Dr.Yuhan closesly for the past two semesters on this project.
 
-    Outside of research, Alex organizes weekly reading groups and is a strong advocate
-    for undergraduate research participation.
+   
 
 faculty_mentor:
   name: Dr. Yuhan Jiang
-  title: Associate Professor, School of Engineering
+  title: Assistant Professor at Morgan State University, CEAMLS & Civil Engineering
   image: /assets/images/faculty-mentor.svg
   website: https://example.com/pat-nguyen
   bio: |
-    Dr. Nguyen leads a research group focused on human-centered computing and
-    accessibility. Their guidance has helped me sharpen my research questions and
-    think more carefully about real-world impact.
+    Dr. Jiang’s research focuses on Artificial Intelligence (AI) in Architecture, Engineering, Construction (AEC), and Operations, including Robotics and Sensors-based Data Collection, Computer Vision and Machine Learning-based Data Processing, and BIM, GIS, and AR/VR-based Data Visualization. 
 
-    Dr. Nguyen has mentored many SAIRI students and is a champion for broadening
-    participation in computing.
 ---
