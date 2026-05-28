@@ -30,8 +30,10 @@ approach: |
 outcome: |
   Research Outcome : A well put together reasearch paper that covers the many paths and challenges taken to solve our problem.
   Something I hope we can make is a "What this could look like for construction in the next 10 years" type of video.
+  
   Prototype Outcome : I would hope to create 🤖robotic arm(s) that is able to to build a Lego set with
-  over 500 pieces in less than two hours.
+  over 500 pieces in less than two hours. 
+  Maybe even a more smaller robot that is able to pick up the small pieces and/or build the lego figures and more miniture structures.
   
 
 final_report_url: https://example.com/your-report.pdf
