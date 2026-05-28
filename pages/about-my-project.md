@@ -3,7 +3,7 @@ layout: project
 title: About My Project
 permalink: /about-my-project.html
 
-subtitle: Human-Computer Interaction & Adaptive Systems
+subtitle: Human Arm vs Robotic Arm Lego Build
 project_title: Developing Edge AI Applications for Human-Robot Collaboration in LEGO Assembling Operations
 
 problem: |
