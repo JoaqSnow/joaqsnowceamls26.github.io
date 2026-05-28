@@ -9,10 +9,11 @@ about:
   image: /assets/Profile pic.png
   linkedin: https://www.linkedin.com/in/joaquin-snowden-a482a228a/
   bio: |
-    Bonjour I'm Joaquin, a Mechatronics Engineer student in the CEAMLS SAIRI program!!
+    Bonjour I an Joaquin, a Mechatronics Engineer student in the CEAMLS SAIRI program!!
 
-    My career goal is to become a Project Manager concentrating in the construction field. What AI reasearch
-    will do for me ,specifically the Project I am working on , (Check out my Project tab), will allow me to take
+    I am pursuing a career in Project Management concentrating in the construction field; with the main goal
+    of creating and running my own training facility called " Temple Fitness/Run".
+    What AI reasearch will do for me ,specifically the Project I am working on , (Check out my Project tab), will allow me to take
     a glimpse into the future of how AI will be implemented into construction. 
 
     I Am a President for a faith based oraganization called Connected Through Christ on Morgan State campus, which 
