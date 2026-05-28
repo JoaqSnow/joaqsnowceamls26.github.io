@@ -15,21 +15,20 @@ problem: |
 approach: |
  This project aims to develop edge AI applications that enable a robotic arm to autonomously 
  retrieve and pick up a specific LEGO brick from a pile to assist LEGO assembling operations.
-  Tools 
+ 
+  Tools to be used :
   - Python as the programming language,
   - NumPy and OpenCV to support image processing and computer vision, 
-  - use Ultralytics YOLO as object detection models, 
-  - use NVIDIA Jetson Developer Kits for Edge AI computing, 
-  - use webcam as the optical imagery sensor, 
-  - use ROS2 for robot arm control and simulation, as well as 
-  - use Trossenrobotics WidowX 250 S robotic arm as prototype testing platform,
-  - use Mendeley Desktop to manage research, create bibliographies, and insert in-text citations into Word
+  - Ultralytics YOLO as object detection models, 
+  - NVIDIA Jetson Developer Kits for Edge AI computing, 
+  - webcam as the optical imagery sensor, 
+  - ROS2 for robot arm control and simulation, as well as 
+  - Trossenrobotics WidowX 250 S robotic arm as prototype testing platform,
+  - Mendeley Desktop to manage research, create bibliographies, and insert in-text citations into Word
 
 
 outcome: |
-  'What do you expect to produce by the end of the program? A working prototype?
-  A research poster? A short paper? Describe the artifacts and what you hope
-  others will be able to do with them."
+  
 
 final_report_url: https://example.com/your-report.pdf
 
