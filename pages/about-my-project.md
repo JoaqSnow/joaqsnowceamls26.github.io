@@ -8,7 +8,7 @@ project_title: Developing Edge AI Applications for Human-Robot Collaboration in 
 
 problem: |
 
-  As Artificial Intelligence increases, a question rises; Can AI put compenents together to create firm structures?
+  As Artificial Intelligence increases its knowledge every second of the day, a question rises; Can AI put physical compenents together to create firm structures?
   The best and most fun way to dive deep into this research is LEGOS!
   How can I assemble one of my favorite lego sets without having to move from my spot?
 
@@ -28,9 +28,10 @@ approach: |
 
 
 outcome: |
-  Research Outcome : Being able to present a paper that touches all aspects of AI application,
-  plus the failures
-  Prototype Outcome : 
+  Research Outcome : A well togethe rput reasearch paper that covers the many paths taken to solve our problem.
+  Something I hope we can make is a "What this could look like for cobstruction in the next 10 years" type of video
+  Prototype Outcome : I would hope to create 🤖robotic arm(s) that is able to to build a Lego set with
+  over 500 pieces in less than two hours.
   
 
 final_report_url: https://example.com/your-report.pdf
