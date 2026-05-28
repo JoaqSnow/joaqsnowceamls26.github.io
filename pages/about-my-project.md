@@ -28,8 +28,8 @@ approach: |
 
 
 outcome: |
-Research Outcome : Being able to present a paper that touches all aspects of AI application , plus the failures
-Prototype Outcome : 
+  Research Outcome : Being able to present a paper that touches all aspects of AI application , plus the failures
+  Prototype Outcome : 
   
 
 final_report_url: https://example.com/your-report.pdf
