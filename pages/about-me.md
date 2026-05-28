@@ -11,14 +11,15 @@ about:
   bio: |
     Bonjour I an Joaquin, a Mechatronics Engineer student in the CEAMLS SAIRI program!!
 
-    I am pursuing a career in Project Management concentrating in the construction field; with the main goal
+    I Am pursuing a career in Project Management concentrating in the construction field; with the main goal
     of creating and running my own training facility called " Temple Fitness/Run".
     What AI reasearch will do for me ,specifically the Project I am working on , (Check out my Project tab), will allow me to take
     a glimpse into the future of how AI will be implemented into construction. 
 
     I Am a President for a faith based oraganization called Connected Through Christ on Morgan State campus, which 
     has over 200 members. Our vision is to Show Gods Love, Transform Lives, Build Community, and Grow Leaders on 
-    every campus in every city. This role 
+    every campus in every city. This role has increased my understanding of not just leading a executive board and make sure order 
+    is sustainined ,but also the ability to meet the needs of all Gods people by trusting in the discernment I have been given.
 
     
 
