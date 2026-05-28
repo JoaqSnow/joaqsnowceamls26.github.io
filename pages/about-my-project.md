@@ -17,13 +17,13 @@ approach: |
  retrieve and pick up a specific LEGO brick from a pile to assist LEGO assembling operations.
  
   Tools to be used :
-  - Python as the programming language,
-  - NumPy and OpenCV to support image processing and computer vision, 
-  - Ultralytics YOLO as object detection models, 
-  - NVIDIA Jetson Developer Kits for Edge AI computing, 
-  - webcam as the optical imagery sensor, 
-  - ROS2 for robot arm control and simulation, as well as 
-  - Trossenrobotics WidowX 250 S robotic arm as prototype testing platform,
+  - Python as the programming language
+  - NumPy and OpenCV to support image processing and computer vision
+  - Ultralytics YOLO as object detection models
+  - NVIDIA Jetson Developer Kits for Edge AI computing
+  - webcam as the optical imagery sensor 
+  - ROS2 for robot arm control and simulation 
+  - Trossenrobotics WidowX 250 S robotic arm as prototype testing platform
   - Mendeley Desktop to manage research, create bibliographies, and insert in-text citations into Word
 
 
