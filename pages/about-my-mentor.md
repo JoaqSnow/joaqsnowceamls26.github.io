@@ -6,7 +6,7 @@ permalink: /about-my-mentor.html
 graduate_mentor:
   name: Derreck Mirindi
   title: PhD in Architecture, Urbanism, and Built Environments
-  image: /assets/images/graduate-student-mentor.svg
+  image: assets/images/1693226361007.jpg
   website: https://example.com/alex-morgan
   bio: |
     Derrick possesses proficiency in Python programming, image processing, and computer vision applications utilizing artificial intelligence (AI). These skills make him an ideal candidate for mentoring the undergrads in this proposed project. He has worked with Dr.Yuhan closesly for the past two semesters on this project.
