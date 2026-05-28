@@ -19,19 +19,18 @@ about:
     has over 200 members. Our vision is to Show Gods Love, Transform Lives, Build Community, and Grow Leaders on 
     every campus in every city. This role 
 
-    Outside of class, you'll find me biking trails, learning languages, or working on small
-    side projects with friends.
+    
 
   hobbies:
     - icon: 📖
       title: Reading the bible
-      description: 
+      description: The Daily Bread is something very important in my life. Jesus is the way , the truth, and the life. (The Light aswell!! 🌞)
     - icon: 🏋️‍♂️
       title: Working Out
-      description: 
+      description:  I might go to the gym or I'll do a total of 500 push-ups a day! A workout is a workout😆
     - icon: 📹
       title: Content Creation
-      description: 
+      description:  Christion content = Best Content. Whether its breaking down verses, going live, or day in the Life. It's about Jesus!! 🙏
 
   gallery:
     - image: /assets/images/gallery-1.svg
