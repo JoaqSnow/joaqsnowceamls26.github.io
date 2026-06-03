@@ -13,7 +13,7 @@ about:
 
     I Am pursuing a career in Project Management concentrating in the construction field; with the main goal
     of creating and running my own training facility called " Temple Fitness/Run".
-    What AI reasearch will do for me ,specifically the Project I am working on , (Check out my Project tab), will allow me to take
+    What AI research will do for me ,specifically the Project I am working on , (Check out my Project tab), will allow me to take
     a glimpse into the future of how AI will be implemented into construction. 
 
     I Am a President for a faith based oraganization called Connected Through Christ on Morgan State campus, which 
