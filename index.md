@@ -4,12 +4,12 @@ title: Home
 display_name: Joaquin Snowden                 # <- shown as the big display name on the hero
 description: My CEAMLS SAIRI Summer Research Site
 
-motto: "I Can Do All things through Christ who gives me strength"
+motto: "I Can Do All things through Christ who gives me Strength"
 
 quick_facts:
   - " 🥇 Senior, Mechatronics Engineer"
   - " 🏗️ Project Management"
-  - "     From Frederick, MD"
+  - " 🏠    From Frederick, MD"
   - " 🍣  I like sushi"
 
 linkedin: https://www.linkedin.com/in/joaquin-snowden-a482a228a/
