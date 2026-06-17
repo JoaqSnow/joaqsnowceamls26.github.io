@@ -35,8 +35,8 @@ about:
       description:  Christian content = Best Content. Whether it's breaking down verses, going live, or day in the Life. It's about Jesus!! 🙏
 
   gallery:
-    - image: /assets/images/gallery-1.svg
-      caption: A great day on the trail.
+    - image: /assets/SAIRI TEAM.jpeg
+      caption: SAIRI Project 2
     - image: /assets/images/gallery-2.svg
       caption: One of my recent illustrations.
     - image: /assets/images/gallery-3.svg
