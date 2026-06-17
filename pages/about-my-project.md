@@ -9,8 +9,10 @@ project_title: Developing Edge AI Applications for Human-Robot Collaboration in 
 problem: |
 
   As Artificial Intelligence increases its knowledge every second of the day, a question rises; Can AI put physical compenents together to create firm structures?
-  The best and most fun way to dive deep into this research is LEGOS!
-  How can I assemble one of my favorite lego sets without having to move from my spot?
+  The best and most fun way to dive deep into this research is LEGOS! How can I assemble one of my favorite lego sets without having to move from my spot?
+  Kids,elders, and those with disabilities might not be able to enjoy the full experience of building lego houses,cars, and spaceship. This is where we fill
+  in the gap, let's explore!
+
 
 approach: |
  This project aims to develop edge AI applications that enable a robotic arm to autonomously 
