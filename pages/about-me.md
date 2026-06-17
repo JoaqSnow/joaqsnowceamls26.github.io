@@ -39,6 +39,6 @@ about:
       caption: SAIRI Project 2
     - image: /assets/fam.jpeg
       caption: Organization Family ❤️
-    - image: /assets/images/gallery-3.svg
-      caption: Hanging out with friends after class.
+    - image: /assets/NSBE.jpeg
+      caption: NSBE Conference
 ---
