@@ -28,16 +28,21 @@ approach: |
   - Trossenrobotics WidowX 250 S robotic arm as prototype testing platform
   - Mendeley Desktop to manage research, create bibliographies, and insert in-text citations into Word
 
+    Our approach goal is to make sure we don't miss key points and data analysis while comparing our different Machine Learning Models. We also
+    will look at a 15 GB dataset of legos that already have been labeled
+
 
 outcome: |
   Research Outcome : A well put together reasearch paper that covers the many paths and challenges taken to solve our problem.
-  Something I hope we can make is a "What this could look like for construction in the next 10 years" type of video.
+  Something I hope we can make is a "What this could look like for construction in the next 10 years" type of video. Be able to 
+  present our specfic steps to choosing our Machine Learning model.
   
   Prototype Outcome : I would hope to create 🤖robotic arm(s) that is able to to build a Lego set with
   over 500 pieces in less than two hours. 
   Maybe even a more smaller robot that is able to pick up the small pieces and/or build the lego figures and more miniture structures.
+  We also hope to implement voice control where the user still has authority over the robot and can tell it when to go and stop and
+  what pieces to use.
   
-
 final_report_url: https://example.com/your-report.pdf
 
 grad_mentor:
