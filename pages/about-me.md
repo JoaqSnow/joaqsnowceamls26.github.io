@@ -37,8 +37,8 @@ about:
   gallery:
     - image: /assets/SAIRI TEAM.jpeg
       caption: SAIRI Project 2
-    - image: /assets/images/gallery-2.svg
-      caption: One of my recent illustrations.
+    - image: /assets/fam.jpeg
+      caption: Organization Family ❤️
     - image: /assets/images/gallery-3.svg
       caption: Hanging out with friends after class.
 ---
