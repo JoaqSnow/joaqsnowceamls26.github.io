@@ -17,7 +17,7 @@ faculty_mentor:
   name: Dr. Yuhan Jiang
   title: Assistant Professor at Morgan State University, CEAMLS & Civil Engineering
   image: assets/images/1762306218761.jpg
-  website: https://example.com/pat-nguyen
+  website: [https://example.com/pat-nguyen](https://www.yuhanjiang.com/home)
   bio: |
     Dr. Jiang’s research focuses on Artificial Intelligence (AI) in Architecture, Engineering, Construction (AEC), and Operations, including Robotics and Sensors-based Data Collection, Computer Vision and Machine Learning-based Data Processing, and BIM, GIS, and AR/VR-based Data Visualization. 
 
