@@ -9,7 +9,7 @@ about:
   image: /assets/Profile pic.png
   linkedin: https://www.linkedin.com/in/joaquin-snowden-a482a228a/
   bio: |
-    Bonjour I am Joaquin (WA-keen), a Mechatronics Engineer student in the CEAMLS SAIRI program!!
+    Bonjour I am Joaquin (WA-keen) Snowden, as of August 3rd,2026, I am a rising senior at Morgan State University expected to graduate in Fall 2027. I am currently studying Mechatronics Engineering with a minor in Computer Science and I am a researcher in the CEAMLS SAIRI program!!
 
     I Am pursuing a career in Management looking toward project,construction, or engineering; with the main goal
     of creating and running my own training facility called " Temple Fitness/Run".
