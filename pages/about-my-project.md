@@ -40,13 +40,12 @@ outcome: |
   
 final_report_url: 
   <a href="{{ site.baseurl }}/assets/P2___SAIRI_Final_Paper.pdf" target="_blank">
-  Open Final Research Paper PDF
-</a>
-<iframe
+  Open Final Research Paper PDF</a>
+  <iframe
   src="{{ site.baseurl }}/assets/P2___SAIRI_Final_Paper.pdf"
   width="100%"
   height="700px">
-</iframe>
+  </iframe>
   
 
 grad_mentor:
