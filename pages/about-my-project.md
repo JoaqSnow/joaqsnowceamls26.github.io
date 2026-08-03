@@ -40,12 +40,12 @@ outcome: |
   
 final_report_url: 
   <iframe
-  src = "/assets/pdfs/P2___SAIRI_Final_Paper.pdf"
+  src = "/assets/P2___SAIRI_Final_Paper.pdf"
   width = "100%"
   height = "700px">
   </iframe>
   <p>
-  <a href="/assets/pdfs/P2___SAIRI_Final_Paper.pdf" target="_blank">
+  <a href="/assets/P2___SAIRI_Final_Paper.pdf" target="_blank">
     Open Final Research Paper PDF
   </a>
   </p>
