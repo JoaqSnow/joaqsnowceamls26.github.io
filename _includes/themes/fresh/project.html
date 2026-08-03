@@ -43,33 +43,52 @@
   {% if page.final_report_url %}
   <div class="project__report reveal">
     <div class="report-label">Final Report</div>
-    <a href="{{ page.final_report_url }}" target="_blank">View PDF →</a>
+    <a href="{{ page.final_report_url | relative_url }}" target="_blank">View PDF →</a>
   </div>
   {% endif %}
 
   {% if page.final_report_url %}
-<section class="project-section reveal">
-  <div class="project-section__head">
-    <span class="project-section__num">04</span>
-    <h2 class="project-section__title">Final Report Preview</h2>
-  </div>
+  <section class="project-section reveal">
+    <div class="project-section__head">
+      <span class="project-section__num">04</span>
+      <h2 class="project-section__title">Final Report Preview</h2>
+    </div>
 
-  <iframe
-    src="{{ page.final_report_url | relative_url }}"
-    width="100%"
-    height="700px"
-    style="border: none;">
-  </iframe>
-</section>
-{% endif %}
+    <iframe
+      src="{{ page.final_report_url | relative_url }}"
+      width="100%"
+      height="700px"
+      style="border: none;">
+    </iframe>
+  </section>
+  {% endif %}
 
   {% if page.grad_mentor or page.faculty_mentor %}
   <div class="project__mentors reveal">
     {% if page.grad_mentor %}
-    <div>Graduate Mentor: {% if page.grad_mentor.linkedin %}<a href="{{ page.grad_mentor.linkedin }}" target="_blank"><span>{{ page.grad_mentor.name }}</span></a>{% else %}<span>{{ page.grad_mentor.name }}</span>{% endif %}</div>
+    <div>
+      Graduate Mentor:
+      {% if page.grad_mentor.linkedin %}
+      <a href="{{ page.grad_mentor.linkedin }}" target="_blank">
+        <span>{{ page.grad_mentor.name }}</span>
+      </a>
+      {% else %}
+      <span>{{ page.grad_mentor.name }}</span>
+      {% endif %}
+    </div>
     {% endif %}
+
     {% if page.faculty_mentor %}
-    <div>Faculty Mentor: {% if page.faculty_mentor.linkedin %}<a href="{{ page.faculty_mentor.linkedin }}" target="_blank"><span>{{ page.faculty_mentor.name }}</span></a>{% else %}<span>{{ page.faculty_mentor.name }}</span>{% endif %}</div>
+    <div>
+      Faculty Mentor:
+      {% if page.faculty_mentor.linkedin %}
+      <a href="{{ page.faculty_mentor.linkedin }}" target="_blank">
+        <span>{{ page.faculty_mentor.name }}</span>
+      </a>
+      {% else %}
+      <span>{{ page.faculty_mentor.name }}</span>
+      {% endif %}
+    </div>
     {% endif %}
   </div>
   {% endif %}
