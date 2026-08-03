@@ -38,7 +38,7 @@ outcome: |
   
   Prototype Outcome :The prototype goal was to build a vision-guided robotic system that could detect LEGO pieces, calculate their position, and support pick-and-place operations using the WidowX-250 S robotic arm. The project helped build the foundation for connecting YOLO object detection, QR-code scaling, Edge AI deployment, ROS 2 control, and robotic manipulation. Limitations included the use of a selective LEGO subset for hardware testing, confusion between visually similar LEGO classes, difficulty distinguishing pieces with the same row-and-column layout but different heights, and computational limits when deploying larger YOLO models on NVIDIA Jetson hardware. Future improvements include training YOLO models with more multi-angle images, improving height recognition for similar LEGO pieces, updating robot code so the arm can apply controlled pressure when connecting LEGO bricks, expanding LEGO assembly simulation, and testing the system with additional LEGO datasets to improve generalization.
   
-final_report_url: https://example.com/your-report.pdf
+final_report_url: file:///C:/Users/joaqu/Downloads/P2___SAIRI_Final_Paper.pdf
 
 grad_mentor:
   name: Derrick Mirindi
