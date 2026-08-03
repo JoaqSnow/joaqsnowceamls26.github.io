@@ -47,6 +47,22 @@
   </div>
   {% endif %}
 
+  {% if page.final_report_url %}
+<section class="project-section reveal">
+  <div class="project-section__head">
+    <span class="project-section__num">04</span>
+    <h2 class="project-section__title">Final Report Preview</h2>
+  </div>
+
+  <iframe
+    src="{{ page.final_report_url | relative_url }}"
+    width="100%"
+    height="700px"
+    style="border: none;">
+  </iframe>
+</section>
+{% endif %}
+
   {% if page.grad_mentor or page.faculty_mentor %}
   <div class="project__mentors reveal">
     {% if page.grad_mentor %}
