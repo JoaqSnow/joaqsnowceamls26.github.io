@@ -11,7 +11,7 @@ about:
   bio: |
     Bonjour I am Joaquin (WA-keen), a Mechatronics Engineer student in the CEAMLS SAIRI program!!
 
-    I Am pursuing a career in Project Management concentrating in the construction field; with the main goal
+    I Am pursuing a career in Management looking toward project,construction, or engineering; with the main goal
     of creating and running my own training facility called " Temple Fitness/Run".
     What AI research will do for me ,specifically the Project I am working on , (Check out my Project tab), will allow me to take
     a glimpse into the future of how AI will be implemented into construction. 
