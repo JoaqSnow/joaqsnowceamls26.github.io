@@ -40,7 +40,7 @@ outcome: |
   
 final_report_url: 
   <iframe
-  src = "/assets/P2___SAIRI_Final_Paper.pdf"
+  src = "/assets/pdfs/P2___SAIRI_Final_Paper.pdf"
   width = "100%"
   height = "700px">
   </iframe>
@@ -49,6 +49,7 @@ final_report_url:
     Open Final Research Paper PDF
   </a>
   </p>
+  
 
 grad_mentor:
   name: Derrick Mirindi
