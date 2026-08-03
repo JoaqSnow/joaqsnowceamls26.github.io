@@ -44,6 +44,11 @@ final_report_url:
   width = "100%"
   height = "700px">
   </iframe>
+  <p>
+  <a href="/assets/pdfs/P2___SAIRI_Final_Paper.pdf" target="_blank">
+    Open Final Research Paper PDF
+  </a>
+  </p>
 
 grad_mentor:
   name: Derrick Mirindi
